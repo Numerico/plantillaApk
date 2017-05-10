@@ -3,9 +3,9 @@
 
 
 ## Herramientas
-* Android Studio
-* AVD (Android virtual Device)
-* Git
+* Android Studio https://developer.android.com/studio/index.html
+* AVD (Android virtual Device) https://developer.android.com/studio/run/managing-avds.html
+* Git (Guía de instalación) https://git-scm.com/book/es/v1/Empezando-Instalando-Git
 
 ## Instalación
 1.Clonar el proyecto:
