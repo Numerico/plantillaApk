@@ -81,9 +81,9 @@ fi
  #
 : Descargar el Json y moverlo a la carpeta de inicialización
 #
-
+# TODO No siempre quiero descargarlo
 wget -c --output-document=$archivo $1
-mv -f $archivo $rutaRes
+zmv -f $archivo $rutaRes
 echo "Se descargó el json correctamente"
 
 
@@ -96,7 +96,7 @@ cd $rutaHome
 NombreApp=$(python obtenerNombre.py $1)
 
 
-
+ # TODO sed edita el propio código generador de plantillas, sin dejar registros
 
  #
 : Cambiar el nombre de la aplicación
